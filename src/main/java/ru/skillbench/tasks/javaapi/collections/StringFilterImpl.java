@@ -1,10 +1,11 @@
 package ru.skillbench.tasks.javaapi.collections;
 
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.Iterator;
 
 public class StringFilterImpl implements StringFilter{
-
+    private HashSet<String> hSet;
     @Override
     public void add(String s) {
 
